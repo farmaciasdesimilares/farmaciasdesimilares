@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/logo.png"/>
+  <script src="https://kit.fontawesome.com/90b922c21d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styleformulario.css">
+  <title>Contacto</title>
+</head>
+<body>
+    <div class="banner">
+        <a href="index.html"><img src="imagenes/logo2.jpg" alt="Farmacias similares Banner"></a>
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="calculadora.html">Calculadora</a></li>
+        <li><a href="formulario.html">Contacto</a></li>
+        <li><a href="sucursales.html">Sucursales</a></li>
+    </ul>
+    </div>
+  <div class="container">
+    <form action="https://formsubmit.co/farmaciass.similares@gmail.com" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" required>
+
+      <label for="asunto">Asunto:</label>
+      <input type="text" name="asunto" required>
+
+      <label for="correo">Correo:</label>
+      <input type="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="hidden" name="_template" value="table">
+    </form>
+  </div>
+  <br><br>
+  <footer class="pie-pagina">
+    <div class="grupo1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="imagenes/logo.png" alt="D María">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <P>Nuestra misión es ser más que una farmacia, queremos ser un recurso de salud confiable y accesible para nuestra comunidad.</P>
+        </div>
+        <div class="box">
+            <h2>SÍGUENOS</h2>
+            <div class="red-social">
+                <a href="https://es-la.facebook.com/farmaciassimilares/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/fsimilares/status/1589319121770254337" class="fa-brands fa-x-twitter"></a>
+                <a href="https://www.instagram.com/fsimilares/" class="fa fa-instagram"></a>
+                <a href="https://www.tiktok.com/@drsimi_oficial" class="fa-brands fa-tiktok"></a>
+                <a href="https://apps.apple.com/mx/app/farmacias-similares/id949664461" class="fa-brands fa-app-store"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.ironbit.farmacias&hl=es_MX&pli=1" class="fa-brands fa-google-play"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo2">
+        <small>&copy; 2023 <b>Farmacias Similares</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+</body>
+</html>
